@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ATQC_Suite" duration-ms="51620" started-at="2015-06-16T15:05:48Z" finished-at="2015-06-16T15:06:40Z">
+    <groups>
+    </groups>
+    <test name="ATQC_Test" duration-ms="51620" started-at="2015-06-16T15:05:48Z" finished-at="2015-06-16T15:06:40Z">
+      <class name="com.bryhas.project.mailrutest.tests.WeatherTest">
+        <test-method status="PASS" signature="checkWeather(com.bryhas.project.mailrutest.tools.IBrowser, java.lang.String, com.bryhas.project.mailrutest.data.IUser)[pri:0, instance:com.bryhas.project.mailrutest.tests.WeatherTest@45c8e616]" name="checkWeather" duration-ms="30811" started-at="2015-06-16T18:05:48Z" data-provider="testUserProvider" finished-at="2015-06-16T18:06:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.bryhas.project.mailrutest.tools.FirefoxBrowser@1e67b872]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://mail.ru/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.bryhas.project.mailrutest.data.User@60addb54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWeather -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:com.bryhas.project.mailrutest.tests.WeatherTest@45c8e616]" name="tearDownAfterClass" is-config="true" duration-ms="20779" started-at="2015-06-16T18:06:19Z" finished-at="2015-06-16T18:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- com.bryhas.project.mailrutest.tests.WeatherTest -->
+    </test> <!-- ATQC_Test -->
+  </suite> <!-- ATQC_Suite -->
+</testng-results>
